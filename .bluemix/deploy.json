@@ -118,6 +118,7 @@
         "repo-branch",
         "deploy-org",
         "deploy-space",
+        "deploy-suffix",
         "apic-user",
         "apic-pass",
         "shared-secret",
@@ -209,6 +210,12 @@
             "readonly": false,
             "title": "APIC Password",
             "key": "apic-pass"
+        },
+        {
+            "type": "text",
+            "readonly": false,
+            "title": "Deplyment suffix (for unique hostnames)",
+            "key": "deploy-suffix"
         },
         {
             "type": "text",
